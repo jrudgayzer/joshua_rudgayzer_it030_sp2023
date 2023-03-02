@@ -15,7 +15,7 @@
 
                   }
                 body {
-                  width: 960px; /*TO DO: Reduce this see what happens*/
+                  width: 960px; 
                   font-family: Arial, Verdana, sans-serif;
                   color: #Black;
                   border: 1px solid black;
@@ -38,8 +38,8 @@
 
                 #rightRail {
                   
-                  float: left; /*This is key*/
-                  width: 315px; /*This is key*/
+                  float: left; 
+                  width: 315px; 
                   font-family: Arial, Verdana, sans-serif;
                   border: 1px solid black; 
                    height: 500px;
@@ -114,7 +114,7 @@ footer {
   height: 200px;
   width: 930px;
   background-color: #EEE;
-  overflow: auto; /* Enable scrolling */
+  overflow: auto; 
 }
 
 td.description {
