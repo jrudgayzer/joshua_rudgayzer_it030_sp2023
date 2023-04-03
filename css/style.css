@@ -29,17 +29,6 @@ article {
 }
 
 
-/* grid */
-.grid {
-  display: grid;
-  gap: 20px;
-  grid-template-areas:
-    "nav"
-    "article"
-    "sidebar"
-    "section"
-    "footer";
-}
 
 nav li {
   display: inline-block;
@@ -77,6 +66,17 @@ nav ul {
   margin: 1px;
 }
 
+/* grid */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "nav"
+    "article"
+    "sidebar"
+    "section"
+    "footer";
+}
 
 /* when over 576 px */
 @media screen and (min-width: 576px) {
