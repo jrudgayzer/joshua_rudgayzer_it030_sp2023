@@ -25,3 +25,6 @@ if (width < 567) {
   breakpoint = 'Desktop devices are the best to view my website';
 }
 document.getElementById('breakpoint').textContent = breakpoint;
+breakpoint.textContent = rnbreakpoint();
+
+window.addEventListener("resize", rnbreakpoint);
