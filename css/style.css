@@ -4,11 +4,11 @@ body {
   color: black;
 }
 header{
-  border: 1px solid black;
-  padding: 20px;
-  margin: 15px;
-  align-content: Center ;
   background-color: #eee;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 15px;
+  
 }
 h1 {
   color: black;
@@ -62,7 +62,7 @@ nav ul {
   width: 200px;
 }
 .container > div {
-  width: 300px;
+
   margin: 1px;
 }
 
